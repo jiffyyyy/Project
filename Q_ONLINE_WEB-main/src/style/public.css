@@ -1,0 +1,61 @@
+.main-public-layout {
+  min-height: 100vh;
+}
+
+#public .navbar {
+  color: #ffff !important;
+  background-color: #1b7bd0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  font-weight: bold;
+  height: 120px;
+}
+
+#public .logo-title {
+  font-size: 35px;
+  color: #ffff;
+  text-decoration: none;
+}
+
+
+
+
+#public .nav-link {
+  color: #ffff;
+}
+
+#public .nav-active {
+  color: #f8bc07 !important;
+}
+
+#public .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff !important;
+  height: 60px;
+  background-color: #1b7bd0;
+}
+
+/*LOGO*/
+.logoImg{
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.cardd{
+ 
+  width: 70%;
+  display: flex;
+  gap: 100px;
+  max-width: 1024px;
+  justify-content: space-between;
+}
+
+.card-body>a{
+  text-align: center;
+  align-items: center;
+  
+}
+
